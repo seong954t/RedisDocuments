@@ -38,7 +38,7 @@ ps. 설치 부분은 root 권한이 필요할 수 있으니 참고
 
 <br/><br/>
 
-## 2.2 Ruby Gem Install <sub style="font-size:10px">reference by Dipak Bhimani's commants of [Redis DB](https://groups.google.com/forum/#!topic/redis-db/YoF7s4L-AK8)</sub>
+## 2.2 Ruby Gem Install <sub style="font-size:12px !important">reference by Dipak Bhimani's commants of [Redis DB](https://groups.google.com/forum/#!topic/redis-db/YoF7s4L-AK8)</sub>
 
 우선 오른쪽 사이트에서 rubygem을 다운로드한 후 압축을 풀어준다. ([RubyGems](https://rubygems.org/pages/download))
 
