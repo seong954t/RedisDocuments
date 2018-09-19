@@ -2,6 +2,8 @@
 
 \* 별도의 언급이 없는 한 모든 작업은 /home/redis_4/redis-stable 경로에서 이루어진다. 
 
+**Redis Install & Run의 목표는 Redis Server를 실행하고, cli에 접속하는 것이다.**
+
 우선 redis-stable 파일을 설치해준다. ([download](https://redis.io/download))
 
 나는 /home/redis_4/에 redis-stable 폴더를 넣었다. (/home/redis_4/redis-stable)
