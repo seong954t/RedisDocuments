@@ -9,7 +9,7 @@ Redis Cluster를 시작하기 위해서 redis-trib.rb를 실행해야 한다.
 
     $ src/redis-trib.rb
 
-<br><img src="./img/img03.png" width="398px">
+<br/><img src="./img/img03.png" width="398px">
 
 <br>
 만약 Ruby가 없다면 위와 같은 Error Message가 나타날 것이다. 이것은 ruby가 설치되어있지 않아서 발생하는 문제이니 ruby를 설치해보자. 
