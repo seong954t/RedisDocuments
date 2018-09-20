@@ -48,4 +48,21 @@
 
     $ esc + :wq
 
- 
+## 3.3 포트별 Redis Server 실행 및 Cluster 생성
+
+아래의 명령어를 통해 port별 3개의 Redis Server를 실행시켜주자. 
+    
+    $ src/redis-server 7000/redis.conf
+    $ src/redis-server 7001/redis.conf
+    $ src/redis-server 7002/redis.conf
+
+3개의 서버가 실행되었다면, 아래의 명령어를 통해 Cluster를 생성해보자. 
+
+    $ src/redis-trib.rb create 127.0.0.1:7000 127.0.0.1:7001 127.0.0.1:7002
+
+해당 명령어를 실행하면 아래와 같은 결과가 나오게된다. (실행 중 입력은 yes를 입력해주자.)
+
+<br><img src="./img/img10.png" width="480px">
+
+<br/>
+\* 만약 "..." 이 반복해서 생긴다면, 연결하려는 port와 해당 port + 10000번째 port가 방화벽에 막혀있지 않은지 확인해주면된다.
