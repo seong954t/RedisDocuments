@@ -62,7 +62,32 @@
 
 해당 명령어를 실행하면 아래와 같은 결과가 나오게된다. (실행 중 입력은 yes를 입력해주자.)
 
-<br><img src="./img/img10.png" width="480px">
+<br/><img src="./img/img10.png" width="480px">
 
 <br/>
 \* 만약 "..." 이 반복해서 생긴다면, 연결하려는 port와 해당 port + 10000번째 port가 방화벽에 막혀있지 않은지 확인해주면된다.
+
+## 3.4 Cluster 정보 확인 및 테스트
+
+아래 명령어를 통해 cli에 접속해보자.
+
+    $ src/redis-cli -c -p 7000
+
+접속을 한 후 아래 명령어들을 통해 Cluster를 확인해보자.
+
+    127.0.0.1:7000> cluster info
+    127.0.0.1:7000> cluster nodes
+
+<br/><img src="./img/img11.png" width="360px">
+<br/>
+<br/><img src="./img/img12.png" width="336px">
+<br/>
+
+실행 결과 위와 같은 결과화면이 나올 것이다.
+
+Cluster 결과를 확인해봤다면, 해당 Redis Server에 데이터를 넣어보자.
+
+<br/><img src="./img/img13.png" width="336px">
+<br/>
+
+위 사진과 같이 여러개의 Redis Server에 데이터들이 분산되어 들어가는 것을 확인할 수 있다.
