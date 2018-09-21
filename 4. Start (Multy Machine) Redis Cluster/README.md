@@ -1,4 +1,4 @@
-# 4. Start (Multy Machine) Redis Cluster <sub>reference by [RedisGate](http://redisgate.kr/redis/cluster/redis-trib.php)</sub>
+# 4. Start (Multy Machine) Redis Cluster <sub>reference by [Cluster Redis-trib.rb of RedisGate](http://redisgate.kr/redis/cluster/redis-trib.php)</sub>
 
 \* 3개의 CentOS(Machine)와 redis 설정을 한 이후 진행하면 된다.
 
