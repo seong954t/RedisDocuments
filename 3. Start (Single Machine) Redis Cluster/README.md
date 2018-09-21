@@ -1,4 +1,4 @@
-# 3. Start (Single Machine) Redis Cluster
+# 3. Start (Single Machine) Redis Cluster <sub>reference by [Cluster Start of RedisGate](http://redisgate.kr/redis/cluster/cluster_start.php)</sub>
 
 \* 이전과 동일하게 /home/redis_4/redis-stable 경로에서 작업한다.
 
