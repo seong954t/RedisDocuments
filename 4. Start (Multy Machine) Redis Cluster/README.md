@@ -47,3 +47,43 @@ conf 파일 수정 후 아래와 같은 명령어를 통해 총 6개의 Server�
 <br/><img src="./img/img17.png" width="504px">
 
 <br/>
+
+## 4.2 PORT 개방하기
+
+현재 7000 / 7001 port를 사용하고 있으니 Redis를 사용하기 위해 7000 / 17000 / 7001 / 17001 port를 아래의 명령어를 통해 개방해주자.
+
+
+
+    $ iptables -I INPUT 1 -p tcp --dport [포트번호] -j ACCEPT
+
+    $ iptables -I INPUT 1 -p tcp --dport 7000 -j ACCEPT
+    $ iptables -I INPUT 1 -p tcp --dport 17000 -j ACCEPT
+    $ iptables -I INPUT 1 -p tcp --dport 7001 -j ACCEPT
+    $ iptables -I INPUT 1 -p tcp --dport 17001 -j ACCEPT
+
+ps)
+
+삭제는 
+    
+    $ iptables -D INPUT -p tcp --dport [포트번호] -j ACCEPT 
+
+를 통해 한다.
+
+해당 port iptable 확인은 
+
+    $ netstat -nap | grep [포트번호] 
+
+또는 
+
+    $ iptable -nL 
+
+을 통해 확인한다.
+
+위와 같이 설정이 끝나면 아래와 같은 일을 수행할 수 있다.
+
+IP가 192.168.32.131 인 Machine(컴퓨터) 에서 
+    
+    $ src/redis-cli -h [IP] -c -p [포트번호]
+    $ src/redis-cli -h 192.168.32.134 -c -p 7000 
+
+명령어를 통해 IP가 192.168.32.134인 다른 Redis 서버에 접속하여 Redis 명령어를 수행할 수 있다.
