@@ -4,6 +4,8 @@
 
 \* 7000 / 7001 / 7002 port에 대해 Cluster를 진행한다.
 
+\* 아래에서 사용하는 "127.0.0.1:7000 >" 은 Redis cli에서의 명령어 사용을 의미한다. IP와 PORT는 접속하는 Server에 따라 다르다.
+
 **(Single Machine) Redis Cluster의 목표는 7000 / 7001 / 7002 port의 server를 하나의 컴퓨터에서 Cluster하는 것이다.**
 
 ## 3.1 7000 / 7001 / 7002 폴더 생성
