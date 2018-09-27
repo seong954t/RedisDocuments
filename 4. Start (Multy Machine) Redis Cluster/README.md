@@ -6,6 +6,7 @@
 
 \* 별도의 언급이 없는 한 모든 작업은 /home/redis_4/redis-stable 경로에서 이루어진다.
 
+\* 아래에서 사용하는 "127.0.0.1:7000 >" 은 Redis cli에서의 명령어 사용을 의미한다. IP와 PORT는 접속하는 Server에 따라 다르다.
 
 **(Multy Machine) Redis Cluster의 목표는 3개의 독립적인 Machine을 Cluster하여 Cluster의 데이터 저장이 어떻게 되는지 테스트하는 것이다.**
 
