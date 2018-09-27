@@ -6,6 +6,7 @@
 
 \* 별도의 언급이 없는 한 모든 작업은 /home/redis_4/redis-stable 경로에서 이루어진다.
 
+
 **(Multy Machine) Redis Cluster의 목표는 3개의 독립적인 Machine을 Cluster하여 Cluster의 데이터 저장이 어떻게 되는지 테스트하는 것이다.**
 
 ## 4.1 IP Bind 설정
@@ -106,3 +107,47 @@ IP가 192.168.32.131 인 Machine(컴퓨터) 에서
 만약 아래와 같은 사진이 나온다면 4-2의 port 개방이 제대로 이루어지지 않았을 수 있으니 확인 후 다시 진행하면 된다.
 
 <br/><img src="./img/img19.png" width="321px">
+
+## 4.4 Cluster 확인 및 테스트
+
+Cluster가 제대로 이루어졌는지 확인하기 위해 아래의 명령어를 참고하여, Cluster 된 IP/PORT들 중 하나에 접속한다.
+
+    $ src/redis-cli -h [ IP ] -c -p [ 포트번호 ]
+
+ps)
+
+비밀번호 설정은 redis.conf의 requirepass [ PASSWORD ]로 설정하면 된다.
+
+만약 잘 안된다면, redis-cli 실행 후 
+
+    127.0.0.1:7000 > config set requirepass [ 비밀번호 ]
+
+로 설정하면 된다.
+
+비밀번호 확인은 
+
+    127.0.0.1:7000 > config get requirepass 
+
+로 확인 가능하다.
+
+비밀번호 설정 시 아래의 명령어를 통해 접속하면 된다.
+
+    $ src/redis-cli -h [ IP ] -c -p [ 포트번호 ] -a [ PASSWORD ]
+
+접속 후 아래의 명령어를 통해 Cluster를 확인한다.
+
+    127.0.0.1:7000 > cluster nodes
+
+이후 출력 내용을 확인하고 아래와 같은 결과화면이 나오면된다.
+
+<br/><img src="./img/img20.png" width="370px">
+
+<br/>
+
+이후 Redis Server에 데이터도 입력해보면 아래와 같은 결과를 얻을 수 있다.
+
+<br/><img src="./img/img21.png" width="370px">
+
+<br/>
+
+추가적인 Redis Config 파일의 설정 내용들은 추후 업데이트 예정이다.
