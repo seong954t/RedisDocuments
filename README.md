@@ -22,6 +22,7 @@
 
 ## TODO
 
-- 4\. Start (Multy Machine) Redis Cluster의 Redis Config 설정 내용 업데이트 
+- 4\. Start (Multy Machine) Redis Cluster의 Redis Config 설정 요약 내용 업데이트 
+- Redis Config Setting 요약 내용 작성
 
 reference by [redisgate](http://redisgate.kr/redis/introduction/redis_intro.php)
