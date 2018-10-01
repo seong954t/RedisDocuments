@@ -15,6 +15,7 @@
 1. [Redis Install & Start](./1.%20Redis%20Install%20&%20Start)
 
     0. [Reference Documents](./1.%20Redis%20Install%20%26%20Start/0.%20Reference%20Documents)
+    1. [Redis Install & Run](./1.%20Redis%20Install%20%26%20Start/1.%20Redis%20Install%20%26%20Run/)
     
 ## Execution Environment
 
