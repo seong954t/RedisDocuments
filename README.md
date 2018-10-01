@@ -10,12 +10,12 @@
 - Redis Cluster 세팅
 - Jedis 실행
 
-## Getting Start
+## Contents
 
-- [1. Redis Install & Run](https://github.com/seong954t/RedisStudy/tree/master/1.%20Redis%20Install%20&%20Run)
-- [2. Redis Cluster Settings](https://github.com/seong954t/RedisStudy/tree/master/2.%20Redis%20Cluster%20Settings)
-- [3. Start (Single Machine) Redis Cluster](https://github.com/seong954t/RedisStudy/tree/master/3.%20Start%20(Single%20Machine)%20Redis%20Cluster)
+1. [Redis Install & Start](./1.%20Redis%20Install%20&%20Start)
 
+    0. [Reference Documents](./1.%20Redis%20Install%20%26%20Start/0.%20Reference%20Documents)
+    
 ## Execution Environment
 
 - CentOS 7 in VMware Workstation 14 Player
