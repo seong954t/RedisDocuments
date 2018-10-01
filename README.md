@@ -20,8 +20,4 @@
 
 - CentOS 7 in VMware Workstation 14 Player
 
-## TODO
-
-- 4\. Start (Multy Machine) Redis Cluster의 Redis Config 설정 요약 내용 링크
-
 reference by [redisgate](http://redisgate.kr/redis/introduction/redis_intro.php)
