@@ -151,4 +151,4 @@ ps)
 
 <br/>
 
-추가적인 Redis Config 파일의 설정 내용들은 추후 업데이트 예정이다.
+Redis Config에 대한 추가 내용은 [2. Redis Config Settings 요약](../0.%20Reference%20Documents/2.%20Redis%20Config%20Settings%20요약)을 참고하면 된다.
