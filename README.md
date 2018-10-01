@@ -12,15 +12,15 @@
 
 ## Contents
 
-1. [Redis Install & Start](./1.%20Redis%20Install%20&%20Start)
+* [1. Redis Install & Start](./1.%20Redis%20Install%20&%20Start)
 
-    0. [Reference Documents](./1.%20Redis%20Install%20%26%20Start/0.%20Reference%20Documents)
-    1. [Redis Install & Run](./1.%20Redis%20Install%20%26%20Start/1.%20Redis%20Install%20%26%20Run/)
-    2. [Redis Cluster Settings](./1.%20Redis%20Install%20%26%20Start/2.%20Redis%20Cluster%20Settings/)
-    3. [Start (Single Machine) Redis Cluster](./1.%20Redis%20Install%20%26%20Start/3.%20Start%20(Single%20Machine)%20Redis%20Cluster/)
-    4. [Start (Multy Machine) Redis Cluster](./1.%20Redis%20Install%20%26%20Start/4.%20Start%20(Multy%20Machine)%20Redis%20Cluster/)
-    5. [Try Running Jedis](./1.%20Redis%20Install%20%26%20Start/5.%20Try%20Running%20Jedis/)
-    
+    * [0. Reference Documents](./1.%20Redis%20Install%20%26%20Start/0.%20Reference%20Documents)
+    * [1. Redis Install & Run](./1.%20Redis%20Install%20%26%20Start/1.%20Redis%20Install%20%26%20Run/)
+    * [2. Redis Cluster Settings](./1.%20Redis%20Install%20%26%20Start/2.%20Redis%20Cluster%20Settings/)
+    * [3. Start (Single Machine) Redis Cluster](./1.%20Redis%20Install%20%26%20Start/3.%20Start%20(Single%20Machine)%20Redis%20Cluster/)
+    * [4. Start (Multy Machine) Redis Cluster](./1.%20Redis%20Install%20%26%20Start/4.%20Start%20(Multy%20Machine)%20Redis%20Cluster/)
+    * [5. Try Running Jedis](./1.%20Redis%20Install%20%26%20Start/5.%20Try%20Running%20Jedis/)
+
 ## Execution Environment
 
 - CentOS 7 in VMware Workstation 14 Player
