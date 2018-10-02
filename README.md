@@ -16,6 +16,7 @@
 
     * [0. Reference Documents](./1.%20Redis%20Install%20%26%20Start/0.%20Reference%20Documents)
         * [1. Redis Cluster Settings 요약](./1.%20Redis%20Install%20%26%20Start/0.%20Reference%20Documents/1.%20Redis%20Cluster%20Settings%20요약)
+        * [2. Redis Config Settings 요약](./2.%20Redis%20Install%20%26%20Start/0.%20Reference%20Documents/1.%20Redis%20Config%20Settings%20요약)
     * [1. Redis Install & Run](./1.%20Redis%20Install%20%26%20Start/1.%20Redis%20Install%20%26%20Run/)
     * [2. Redis Cluster Settings](./1.%20Redis%20Install%20%26%20Start/2.%20Redis%20Cluster%20Settings/)
     * [3. Start (Single Machine) Redis Cluster](./1.%20Redis%20Install%20%26%20Start/3.%20Start%20(Single%20Machine)%20Redis%20Cluster/)
