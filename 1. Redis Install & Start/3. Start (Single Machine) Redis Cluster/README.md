@@ -31,7 +31,7 @@
     $ esc + :/[검색 내용]
 
  수정 내용들을 찾아 아래와 같이 변경하자.
- \* 추가적인 내용은 [2. Redis Config Settings 요약](../0.%20Reference%20Documents/2.%20Redis%20Config%20Settings%20요약/README.md)을 참고하면된다.
+ \* 추가적인 내용은 [2. Redis Config Settings 요약](../0.%20Reference%20Documents/2.%20Redis%20Config%20Settings%20요약/)을 참고하면된다.
 
     port [포트번호]                     ->         ex) port 7000
 
