@@ -29,7 +29,7 @@ redis-trib.rb를 통해 cluster작업을 하기 위해 해야할 세팅들이 �
 
     <br/><img src="./img/img.png" width="528px">
     
-    <br>
+    <br/>
 
 
 명령어 LIST 정리
