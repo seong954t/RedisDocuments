@@ -4,6 +4,7 @@
 
 아래의 내용에 대한 내용 정리
 
+- Redis 기본 내용
 - Redis 설치
 - Redis 실행
 - Redis Config 세팅
